@@ -20,6 +20,7 @@ class Validator
     public $max_length_num_msg = 'Максимальное кол-во символов: ';
 	
 	public $test = 'test';
+	public $test2 = 'test2';
 
 
     public function email($data, $len1 = 50, $len2 = 20, $len3 = 15)
