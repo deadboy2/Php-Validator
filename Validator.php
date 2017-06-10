@@ -18,6 +18,8 @@ class Validator
     public $incorrect_num_msg = 'Не корректный номер';
     public $min_length_num_msg = 'Минимальное кол-во символов: ';
     public $max_length_num_msg = 'Максимальное кол-во символов: ';
+	
+	public $test = 'test';
 
 
     public function email($data, $len1 = 50, $len2 = 20, $len3 = 15)
