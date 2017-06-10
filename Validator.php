@@ -19,12 +19,6 @@ class Validator
     public $min_length_num_msg = 'Минимальное кол-во символов: ';
     public $max_length_num_msg = 'Максимальное кол-во символов: ';
 	
-	public $test = 'test';
-	public $test2 = 'test2';
-	public $test3 = 'test3';
-	
-	public brch = '';
-
     public function email($data, $len1 = 50, $len2 = 20, $len3 = 15)
     {
         $email = str_replace(" ", "", $data);
