@@ -21,6 +21,7 @@ class Validator
 	
 	public $test = 'test';
 	public $test2 = 'test2';
+	public $test3 = 'test3';
 
 
     public function email($data, $len1 = 50, $len2 = 20, $len3 = 15)
